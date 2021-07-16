@@ -1,0 +1,115 @@
+:root{
+	--p-color: #570a50;
+	--s-color:#e4e1e1;
+    --t-color: #eccfea;
+    --general:white;
+    --f-color:#696666;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+html {
+    font-size: 16px;
+    background-color: var(--general);
+    }
+  
+body{
+    width: 80%;
+    margin: auto;
+    background-color: var(--s-color);
+    }
+    
+header{
+    width: 100%;
+    height: 70px;
+    color:var(--p-color);
+    display: flex;
+    }
+ 
+#logo {
+    width: 30%;
+    font-size: 20px;
+    flex: row;
+    }
+
+#simbolo{
+    width: 30%;
+    }
+  
+#menu{
+    width: 70%;
+    background-color: var(--t-color);
+    list-style: none;
+    text-align: center;
+    }
+
+#menu li{
+    padding: 15px;
+    display: inline-block;
+    }
+  
+ .container {
+    height: 350px;
+    display: inline-flex;
+    }
+  
+    
+ #linea {
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    }
+  
+   
+ .caja{
+    width: 90%;
+    height: 50px;
+    background-color:var(--t-color);
+    border: 1px solid var(--p-color);
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;    
+    text-align: center;
+    }
+  
+ #contenido{
+    width: 70%;
+    padding: 20px;
+    }
+  
+  
+#big {
+    width: 70%;
+    background-color: lightgray;
+    border: 0.5px solid var(--f-color);
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 20px;
+    font-size: 12px;
+    text-align: justify;
+    }
+  
+#small{
+    width: 60%;
+    background-color:var(--t-color);
+    border: 0.5px solid var(--f-color);
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top:-40px;
+    }
+ 
+  footer{
+    width: 100%;
+    height: 50px;
+    background-color:var(--f-color);
+    }
